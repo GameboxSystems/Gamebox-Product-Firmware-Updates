@@ -11,10 +11,11 @@ Repository of firmware update binaries for FPGA based Gamebox projects
 	> - Backported most recent pixel filters
 
 ### 64HD
-- FWUPD_64HD_v1.7.0.mcs *to be released imminently - needs additional testing*
+- FWUPD_64HD_v1.7.0.mcs - **16/05/2023**
 	> 64HD v1.7.0 Changelog
 	> - 1080i half screen bug fixed
 	> - L/R Audio swap bug fixed
-	> - 1280x800 video mode added
-	> - Audio resampling core updated to reduce higher frequency and shrill sounding audio (needs testing) 
+	> - 1280x800p video mode added
+	> - Bilinear pixel filtering update - No more "cloudy" look. Bars on side of image when using filters reduced drasitcly
+	> - Audio resampling core updated to reduce higher frequency and shrill sounding audio (more testers needed)
 
