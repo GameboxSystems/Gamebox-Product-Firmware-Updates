@@ -11,6 +11,12 @@ Repository of firmware update binaries for FPGA based Gamebox projects
 	> - Backported most recent pixel filters
 
 ### 64HD
+- FWUPD_64HD_v1.7.3.mcs - **18/05/2023**
+	> 64HD v1.7.3 Changelog
+	> - Scaling option bugs in 240p and 480p reported by users have been addressed
+	> - Filter options tweaked and now vertical bar issue on left and right of image have __actually__ been fixed/
+		> __*IMPORTANT NOTE:*__ Due to a change in valid pixel ranges in the image filter core, those who have filter options on and saved in their current firmware version will see incorrect colors upon first boot of the updated firmware. Simply toggle the image brightness up or down to correct the colors in the image and save. This issue will not persist after this adjustment is done.
+
 - FWUPD_64HD_v1.7.0.mcs - **16/05/2023**
 	> 64HD v1.7.0 Changelog
 	> - 1080i half screen bug fixed
