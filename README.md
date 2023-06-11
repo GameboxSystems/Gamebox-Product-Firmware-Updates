@@ -11,6 +11,16 @@ Repository of firmware update binaries for FPGA based Gamebox projects
 	> - Backported most recent pixel filters
 
 ### 64HD
+- FWUPD_64HD_v2.0.1.mcs - **11/06/2023**
+	> 64HD v2.0.1 Changelog
+	> - Codebase heavily refactored to drastically improve image stability and screen compatibility, especially for PAL region consoles
+	> - 1080i flickering fixed (for screens that accept the 1080i signal)
+	> - Toggling "Alt Audio" no longer resets HDMI stream
+	> - N64 sound volume normalized before getting to HDMI output 
+	> - OSD menu restructured
+	> - New resolution 1024x768 added
+	> - Filters removed due instability and timing issues causing unstable image output
+
 - FWUPD_64HD_v1.7.3.mcs - **18/05/2023**
 	> 64HD v1.7.3 Changelog
 	> - Scaling option bugs in 240p and 480p reported by users have been addressed
