@@ -11,6 +11,10 @@ Repository of firmware update binaries for FPGA based Gamebox projects
 	> - Backported most recent pixel filters
 
 ### 64HD
+- FWUPD_64HD_v2.0.2.mcs - **13/06/2023**
+	> 64HD v2.0.1 Changelog
+	> - Hotfix for error state in OSD when pressing B on the last option in "Display" menu which caused the OSD to lock up
+
 - FWUPD_64HD_v2.0.1.mcs - **11/06/2023**
 	> 64HD v2.0.1 Changelog
 	> - Codebase heavily refactored to drastically improve image stability and screen compatibility, especially for PAL region consoles
