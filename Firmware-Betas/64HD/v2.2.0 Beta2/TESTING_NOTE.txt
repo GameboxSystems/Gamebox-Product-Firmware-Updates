@@ -1,0 +1,1 @@
+Beta 2 is to test metastability bug fixes. If you get a black screen, cycle resolutions. This is *unfinished* and purely to test the metastability bug fix.
