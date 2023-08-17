@@ -1,0 +1,12 @@
+Potential release candidate, only small issues remain:
+
+- 240p sound through component adapter is crackling again, will fix in RC1
+- 240p video is stable but in order to work properly, 480p needs to be selected first and then switched into 240p
+- 480p audio seems to only work with "alt audio" toggled on but needs confirmation
+- Small scaler misalignments might be present. Please report any game window misalignments.
+
+To be tested in beta 5:
+- Audio compatibility and "alt audio" mode (32KHz sample frequency, 48KHz when off)
+- Tv/Monitor compatibility
+- Any visual glitches (i.e. Majora's mask intro or OOT save load screen)
+- Filters, check for any issues through out the scaler options
