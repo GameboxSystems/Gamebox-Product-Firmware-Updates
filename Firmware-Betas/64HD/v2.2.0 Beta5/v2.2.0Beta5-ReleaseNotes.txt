@@ -4,6 +4,7 @@ Potential release candidate, only small issues remain:
 - 240p video is stable but in order to work properly, 480p needs to be selected first and then switched into 240p
 - 480p audio seems to only work with "alt audio" toggled on but needs confirmation
 - Small scaler misalignments might be present. Please report any game window misalignments.
+- 1080i scaler options need adjusting, may not work as is
 
 To be tested in beta 5:
 - Audio compatibility and "alt audio" mode (32KHz sample frequency, 48KHz when off)
